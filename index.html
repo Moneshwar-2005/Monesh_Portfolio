@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Engineer Portfolio">
+    <title>Monesh's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="stars" id="stars"></div>
+    
+    <!-- Top Navigation Bar -->
+    <header>
+        <nav>
+            <a href="#home" class="logo">Monesh's Portfolio</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#ai">Monesh's AI</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="animate-fadeInLeft">Explore My <span style="color: var(--accent-color);">Universe</span></h1>
+                        <h3 class="animate-fadeIn">Moneshwar S S</h3>
+                        <h4 class="animate-fadeIn">Software Engineer</h4>
+                        <p class="animate-fadeIn">A passionate developer skilled in HTML & CSS, JavaScript, Advanced Java, Spring, MySQL, and Hypernet. Creating efficient solutions through code, I'm embarking on a journey to make complex software simple and enjoyable to use.</p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="cta-button animate-fadeIn">View Project</a>
+                            <a href="#contact" class="cta-button secondary animate-fadeIn">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About</h2>
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="cosmic-card">
+                        <h3>Mission Brief</h3>
+                        <p>Greetings, cosmic visitor! I'm <span class="highlight">Moneshwar S S</span>, a Software Engineer exploring the digital universe. With a passion for creating elegant solutions to complex problems, I navigate through code like a starship captain charting unknown territories.</p>
+                        
+                        <p>As a fresh graduate with a strong foundation in programming languages and software development principles, I'm excited to begin my journey in the tech industry. I'm eager to apply my skills in real-world projects and continue learning and growing as a developer.</p>
+                    </div>
+                    
+                    <div class="cosmic-stats">
+                        <div class="stat-item">
+                            <div class="stat-value"><span>BSc</span></div>
+                            <div class="stat-label">Computer Science</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value"><span>1</span>+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value"><a href="#projects" class="project-link"><i class="fas fa-rocket"></i></a></div>
+                            <div class="stat-label">View Project</div>
+                        </div>
+                    </div>
+                    
+                    <div class="cosmic-card">
+                        <h3>Technical Expertise</h3>
+                        <div class="skills-overview">
+                            <div class="skill-category">
+                                <h4><i class="fas fa-code"></i> Front-End Development</h4>
+                                <p>Proficient in creating responsive and interactive user interfaces using HTML5, CSS3, and JavaScript. Experienced in building modern web applications with a focus on user experience and accessibility.</p>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4><i class="fas fa-server"></i> Back-End Development</h4>
+                                <p>Skilled in Advanced Java programming with expertise in object-oriented design, multi-threading, and collections. Experienced with Spring Framework for building robust enterprise applications.</p>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4><i class="fas fa-database"></i> Database Management</h4>
+                                <p>Proficient in MySQL database design, query optimization, and data management. Experienced with complex queries, stored procedures, and database administration.</p>
+                            </div>
+                            
+                            <div class="skill-category">
+                                <h4><i class="fas fa-network-wired"></i> Networking</h4>
+                                <p>Knowledge of Hypernet networking protocols, configuration, and optimization. Familiar with network architecture, security implementations, and performance tuning.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cosmic-card">
+                        <h3>Mission Objectives</h3>
+                        <ul class="mission-list">
+                            <li><i class="fas fa-meteor"></i> Crafting scalable and maintainable code that stands the test of time</li>
+                            <li><i class="fas fa-robot"></i> Exploring emerging technologies and pushing the boundaries of what's possible</li>
+                            <li><i class="fas fa-satellite"></i> Building intuitive user experiences that feel like second nature</li>
+                            <li><i class="fas fa-rocket"></i> Constantly expanding my knowledge universe through continuous learning</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skill</h2>
+            <div class="skills-container">
+                <div class="skills-intro">
+                    <div class="cosmic-card">
+                        <h3>Navigation Systems</h3>
+                        <p>As a developer, I've learned various programming languages and technologies that allow me to navigate through the universe of software development. Below is a cosmic representation of my proficiency levels.</p>
+                    </div>
+                    
+                    <!-- Keeping the skill level legend -->
+                    <div class="skill-legend">
+                        <div class="legend-item">
+                            <div class="legend-color" style="--color: var(--beginner-color)"></div>
+                            <span>Basic Knowledge (30-50%)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="--color: var(--intermediate-color)"></div>
+                            <span>Intermediate (51-75%)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="--color: var(--advanced-color)"></div>
+                            <span>Advanced (76-95%)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="--color: var(--expert-color)"></div>
+                            <span>Expert (96-100%)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Front-End Skills -->
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-info">
+                            <h3>HTML & CSS</h3>
+                            <div class="skill-level">
+                                <div class="skill-progress expert" style="--percent: 95%;">
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                            </div>
+                            <p>Expert in creating responsive, accessible, and visually appealing web interfaces. Skilled in modern CSS techniques, animations, and cross-browser compatibility.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-info">
+                            <h3>JavaScript</h3>
+                            <div class="skill-level">
+                                <div class="skill-progress advanced" style="--percent: 85%;">
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+                            <p>Proficient in modern JavaScript (ES6+) with experience in DOM manipulation, asynchronous programming, and building interactive web applications.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Back-End Skills -->
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                            <div class="skill-badge">Advanced</div>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Advanced Java</h3>
+                            <div class="skill-level">
+                                <div class="skill-progress advanced" style="--percent: 90%;">
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                            </div>
+                            <p>Expert in advanced Java concepts including multi-threading, collections, generics, annotations, and functional programming. Skilled in building robust enterprise applications.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-java"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Core Java</h3>
+                            <div class="skill-level">
+                                <div class="skill-progress advanced" style="--percent: 92%;">
+                                    <span class="skill-percent">92%</span>
+                                </div>
+                            </div>
+                            <p>Proficient in fundamental Java programming concepts including object-oriented principles, inheritance, polymorphism, exception handling, and Java I/O. Strong foundation in core Java libraries and APIs.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-leaf"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Spring</h3>
+                            <div class="skill-level">
+                                <div class="skill-progress advanced" style="--percent: 88%;">
+                                    <span class="skill-percent">88%</span>
+                                </div>
+                            </div>
+                            <p>Proficient in Spring Framework for building enterprise applications. Experienced with dependency injection, Spring MVC, Spring Security, and integration with various databases.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Database Skills -->
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-info">
+                            <h3>MySQL</h3>
+                            <div class="skill-level">
+                                <div class="skill-progress advanced" style="--percent: 85%;">
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                            </div>
+                            <p>Proficient in database design, query optimization, and data management using MySQL. Experienced with complex queries, stored procedures, and database administration.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Networking Skills -->
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fas fa-network-wired"></i>
+                            <div class="skill-badge">Hypernet</div>
+                            <div class="skill-glow"></div>
+                        </div>
+                        <div class="skill-info">
+                            <h3>Hypernet</h3>
+                            <div class="skill-level">
+                                <div class="skill-progress intermediate" style="--percent: 70%;">
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                            </div>
+                            <p>Knowledge of Hypernet networking protocols, configuration, and optimization. Familiar with network architecture, security implementations, and performance tuning.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Full Stack Detailed View -->
+                <div class="full-stack-details" style="display: none;"></div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-container">
+                <div class="timeline-intro">
+                    <div class="cosmic-card">
+                        <h3>Academic Journey</h3>
+                        <p>My educational voyage through the cosmos of knowledge, from school to college, has equipped me with the foundations needed to navigate the complexities of software development.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <!-- BSc Computer Science -->
+                    <div class="timeline-item current">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - Present</div>
+                        <div class="timeline-content">
+                            <div class="cosmic-card">
+                                <h3>BSc Computer Science</h3>
+                                <h4>SSM College of Arts and Science</h4>
+                                <div class="edu-progress">
+                                    <div class="edu-bar" style="--percent: 77.7%;">
+                                        <span class="edu-percent">77.7%</span>
+                                    </div>
+                                </div>
+                                <p>Currently pursuing my Bachelor's degree with a focus on computer science fundamentals, programming languages, and software development principles.</p>
+                                <div class="timeline-badge">Current</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- HSC (12th) -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2020 - 2022</div>
+                        <div class="timeline-content">
+                            <div class="cosmic-card">
+                                <h3>Higher Secondary Certificate (HSC)</h3>
+                                <h4>Equitas Gurukul Matric Higher Secondary School</h4>
+                                <div class="edu-progress">
+                                    <div class="edu-bar" style="--percent: 73.3%;">
+                                        <span class="edu-percent">73.3%</span>
+                                    </div>
+                                </div>
+                                <p>Completed my higher secondary education with a focus on mathematics and computer science, building a strong foundation for my programming journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- SSLC (10th) -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2020</div>
+                        <div class="timeline-content">
+                            <div class="cosmic-card">
+                                <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                                <h4>MSP Solai Nadar Memorial Higher Secondary School</h4>
+                                <div class="edu-progress">
+                                    <div class="edu-bar" style="--percent: 73.2%;">
+                                        <span class="edu-percent">73.2%</span>
+                                    </div>
+                                </div>
+                                <p>Completed my secondary education with a well-rounded curriculum that sparked my interest in technology and logical problem-solving.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Project</h2>
+            <div class="projects-container">
+                <div class="projects-intro">
+                    <div class="cosmic-card">
+                        <h3>Stellar Creations</h3>
+                        <p>Each project represents a star in my development universe, showcasing my ability to transform ideas into functional, elegant solutions. Here are some of the cosmic creations I've launched.</p>
+                    </div>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Self-Parking Project -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Self-Parking System</h3>
+                            <div class="project-tags">
+                                <span>Automation</span>
+                                <span>Embedded Systems</span>
+                                <span>Sensors</span>
+                            </div>
+                            <p>A smart parking solution that uses sensors and actuators to automatically park vehicles with precision and safety, reducing human error.</p>
+                            <button class="project-details-btn" data-project="self-parking">
+                                Explore Project <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Modal for Self-Parking Project -->
+                <div class="project-modal" id="self-parking-modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2>Self-Parking System</h2>
+                            <button class="close-modal"><i class="fas fa-times"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-details">
+                                <div class="modal-section">
+                                    <h3><i class="fas fa-rocket"></i> Project Overview</h3>
+                                    <p>The Self-Parking System is an innovative solution designed to automate the parking process of vehicles. Using a combination of sensors, motors, and intelligent algorithms, the system can detect parking spaces and navigate into them safely and efficiently.</p>
+                                </div>
+                                
+                                <div class="modal-section">
+                                    <h3><i class="fas fa-cogs"></i> Technologies Used</h3>
+                                    <div class="tech-list modal-tech-list">
+                                        <span class="tech-badge">Arduino</span>
+                                        <span class="tech-badge">Ultrasonic Sensors</span>
+                                        <span class="tech-badge">Servo Motors</span>
+                                        <span class="tech-badge">C/C++</span>
+                                        <span class="tech-badge">Embedded Systems</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="modal-section">
+                                    <h3><i class="fas fa-lightbulb"></i> Key Features</h3>
+                                    <ul class="feature-list">
+                                        <li>Real-time obstacle detection and avoidance</li>
+                                        <li>Automated parallel and perpendicular parking capability</li>
+                                        <li>Distance measurement with high precision</li>
+                                        <li>Intelligent path planning algorithm</li>
+                                        <li>Safety mechanisms to prevent collisions</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="modal-section">
+                                    <h3><i class="fas fa-code"></i> Implementation</h3>
+                                    <p>The system was implemented using Arduino as the main controller, with ultrasonic sensors for distance measurement, and servo motors for controlling the vehicle's movement. The algorithms were written in C/C++ to process sensor data and make real-time decisions for safe parking maneuvers.</p>
+                                </div>
+                                
+                                <div class="modal-section">
+                                    <h3><i class="fas fa-chart-line"></i> Results & Impact</h3>
+                                    <p>The Self-Parking System demonstrated a 95% success rate in test scenarios, significantly reducing the time and stress associated with parking in tight spaces. The project showcases my ability to integrate hardware and software components to solve real-world problems.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="modal-btn"><i class="fab fa-github"></i> View Code</a>
+                            <a href="#" class="modal-btn"><i class="fas fa-video"></i> Watch Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero's AI Section -->
+        <section id="ai">
+            <h2>Hero's AI</h2>
+            <div class="ai-container">
+                <div class="ai-intro">
+                    <div class="cosmic-card">
+                        <h3>AI Communication Portal</h3>
+                        <p>Welcome to my AI assistant interface. Feel free to ask questions about my project, skills, or just chat about technology!</p>
+                    </div>
+                </div>
+                
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <div class="ai-avatar">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="ai-info">
+                            <h3>Monesh's AI</h3>
+                            <span class="ai-status online">Online</span>
+                        </div>
+                        <div class="chat-controls">
+                            <button class="chat-control-btn" id="clear-chat" title="Clear Chat">
+                                <i class="fas fa-trash-alt"></i>
+                            </button>
+                            <button class="chat-control-btn" id="toggle-suggestions" title="Show Suggestions">
+                                <i class="fas fa-lightbulb"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-messages" id="chat-messages">
+                        <!-- Messages will be added here dynamically -->
+                        <div class="message ai-message">
+                            <div class="message-content">
+                                <p>Hello, I'm Monesh's AI! How can I help you explore this portfolio?</p>
+                            </div>
+                            <div class="message-time">Just now</div>
+                        </div>
+                    </div>
+                    
+                    <div class="suggested-questions" id="suggested-questions">
+                        <p class="suggestions-title">Suggested Questions:</p>
+                        <div class="suggestion-btns">
+                            <button class="suggestion-btn">What are your programming skills?</button>
+                            <button class="suggestion-btn">Tell me about your Self-Parking project</button>
+                            <button class="suggestion-btn">What's your educational background?</button>
+                            <button class="suggestion-btn">What Full Stack technologies do you use?</button>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-input-container">
+                        <input type="text" id="chat-input" placeholder="Type your message here..." class="chat-input">
+                        <button id="send-message" class="send-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="typing-indicator" id="typing-indicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact me</h2>
+            <div class="contact-container">
+                <div class="contact-intro">
+                    <div class="cosmic-card">
+                        <h3>Contact Me</h3>
+                        <p>I'm interested in new opportunities and collaborations. Feel free to reach out if you'd like to connect!</p>
+                    </div>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="cosmic-card contact-card">
+                            <div class="contact-profile">
+                                <div class="contact-avatar">
+                                    <img src="profile-photo.jpg" alt="Moneshwar S S">
+                                    <div class="avatar-glow"></div>
+                                </div>
+                                <div class="contact-name">
+                                    <h3>Moneshwar S S</h3>
+                                    <p>Software Engineer</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                        <h4>Email</h4>
+                                        <a href="mailto:moneshwar2005@gmail.com">moneshwar2005@gmail.com</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item">
+                                    <div class="contact-icon linkedin-icon" title="Connect on LinkedIn">
+                                        <i class="fab fa-linkedin"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                        <h4>LinkedIn</h4>
+                                        <a href="https://www.linkedin.com/in/moneshwar-s-s-066441334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Moneshwar S S</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item">
+                                    <div class="contact-icon github-icon" title="View GitHub Profile">
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                        <h4>GitHub</h4>
+                                        <a href="https://github.com/Moneshwar-2005" target="_blank">@Moneshwar-2005</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                        <h4>Location</h4>
+                                        <p>Tamil Nadu, India</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <div class="cosmic-card contact-card">
+                            <h3><i class="fas fa-satellite-dish"></i> Send Transmission</h3>
+                            <form id="contact-form" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <div class="input-container">
+                                        <i class="fas fa-user"></i>
+                                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <div class="input-container">
+                                        <i class="fas fa-envelope"></i>
+                                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <div class="input-container">
+                                        <i class="fas fa-heading"></i>
+                                        <input type="text" id="subject" name="subject" placeholder="Enter message subject" required>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <div class="input-container textarea-container">
+                                        <i class="fas fa-comment-alt"></i>
+                                        <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                                    </div>
+                                </div>
+                                
+                                <button type="submit" class="submit-btn">
+                                    <span>Send Message</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                            <div id="form-success" class="form-success">
+                                <i class="fas fa-check-circle"></i>
+                                <p>Your message has been sent successfully!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/moneshwar-s-s-066441334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Moneshwar-2005" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2025 Moneshwar S S. All rights reserved across the universe.</p>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-rocket"></i>
+    </a>
+
+    <script>
+        // Scroll header effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            const backToTop = document.querySelector('.back-to-top');
+            
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+                backToTop.classList.add('visible');
+            } else {
+                header.classList.remove('scrolled');
+                backToTop.classList.remove('visible');
+            }
+            
+            // Update side navigation active state
+            updateSideNav();
+        });
+        
+        function updateSideNav() {
+            // Get all sections and side nav links
+            const sections = document.querySelectorAll('section');
+            const sideNavLinks = document.querySelectorAll('.side-nav a');
+            
+            // Get current scroll position
+            const scrollY = window.pageYOffset;
+            
+            // Find current section
+            sections.forEach((section, index) => {
+                const sectionTop = section.offsetTop - 150;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+                
+                if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                    // Remove active class from all links
+                    sideNavLinks.forEach(link => link.classList.remove('active'));
+                    
+                    // Add active class to corresponding link
+                    document.querySelector(`.side-nav a[href="#${sectionId}"]`).classList.add('active');
+                }
+            });
+        }
+        
+        // Initialize side nav active state on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            createGalaxy();
+            updateSideNav();
+        });
+        
+        // Animate elements when they enter the viewport
+        const observerOptions = {
+            threshold: 0.1
+        };
+        
+        const observer = new IntersectionObserver(function(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fadeIn');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('section:not(#home)').forEach(section => {
+            observer.observe(section);
+        });
+        
+        // Enhanced galaxy star creation
+        function createGalaxy() {
+            const starsContainer = document.getElementById('stars');
+            // Clear any existing stars
+            starsContainer.innerHTML = '';
+            
+            // Add a nebula background effect
+            const nebula = document.createElement('div');
+            nebula.className = 'nebula';
+            starsContainer.appendChild(nebula);
+            
+            // Create galaxy clusters
+            const clusterCount = 5;
+            for (let i = 0; i < clusterCount; i++) {
+                createGalaxyCluster(starsContainer);
+            }
+            
+            // Create individual stars
+            const starCount = 200;
+            for (let i = 0; i < starCount; i++) {
+                createStar(starsContainer);
+            }
+            
+            // Create occasional shooting stars
+            setInterval(() => {
+                if (Math.random() > 0.7) {
+                    createShootingStar(starsContainer);
+                }
+            }, 2000);
+        }
+        
+        function createGalaxyCluster(container) {
+            const cluster = document.createElement('div');
+            cluster.className = 'galaxy-cluster';
+            
+            // Random position
+            const x = Math.random() * 100;
+            const y = Math.random() * 100;
+            
+            // Random size (bigger for clusters)
+            const size = 100 + Math.random() * 200;
+            
+            // Random color for the cluster
+            const colors = [
+                '142, 68, 173',  // Purple
+                '41, 128, 185',  // Blue
+                '26, 188, 156',  // Turquoise
+                '231, 76, 60',   // Red
+                '241, 196, 15'   // Yellow
+            ];
+            const colorIndex = Math.floor(Math.random() * colors.length);
+            
+            // Random duration and opacity
+            const duration = 10 + Math.random() * 20;
+            const opacity = 0.2 + Math.random() * 0.3;
+            
+            cluster.style.left = `${x}%`;
+            cluster.style.top = `${y}%`;
+            cluster.style.width = `${size}px`;
+            cluster.style.height = `${size}px`;
+            cluster.style.setProperty('--cluster-color-rgb', colors[colorIndex]);
+            cluster.style.setProperty('--cluster-duration', `${duration}s`);
+            cluster.style.setProperty('--cluster-opacity', opacity);
+            
+            container.appendChild(cluster);
+            
+            // Add stars to the cluster (denser in the center)
+            const clusterStarCount = 20 + Math.floor(Math.random() * 30);
+            for (let i = 0; i < clusterStarCount; i++) {
+                createClusterStar(cluster, colors[colorIndex]);
+            }
+        }
+        
+        function createClusterStar(cluster, colorRgb) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            
+            // Position stars with a bias toward the center of the cluster
+            const angle = Math.random() * Math.PI * 2;
+            const distanceFromCenter = Math.pow(Math.random(), 2) * 50; // Squared to bias toward center
+            const x = 50 + Math.cos(angle) * distanceFromCenter;
+            const y = 50 + Math.sin(angle) * distanceFromCenter;
+            
+            // Random size with some bigger stars
+            const size = (Math.random() < 0.8 ? 1 : 2) + Math.random() * 2;
+            
+            // Use the cluster's color with variation
+            const r = parseInt(colorRgb.split(',')[0]) + (Math.random() * 30 - 15);
+            const g = parseInt(colorRgb.split(',')[1]) + (Math.random() * 30 - 15);
+            const b = parseInt(colorRgb.split(',')[2]) + (Math.random() * 30 - 15);
+            const color = `rgb(${r}, ${g}, ${b})`;
+            
+            // Random duration and opacity for twinkling
+            const duration = 2 + Math.random() * 4;
+            const opacity = 0.5 + Math.random() * 0.5;
+            
+            star.style.left = `${x}%`;
+            star.style.top = `${y}%`;
+            star.style.width = `${size}px`;
+            star.style.height = `${size}px`;
+            star.style.backgroundColor = color;
+            star.style.setProperty('--star-color', color);
+            star.style.setProperty('--duration', `${duration}s`);
+            star.style.setProperty('--opacity', opacity);
+            star.style.setProperty('--glow-size', `${size * 2}px`);
+            
+            // Add slight movement to each star
+            const floatX = (Math.random() - 0.5) * 10;
+            const floatY = (Math.random() - 0.5) * 10;
+            star.style.setProperty('--float-x', `${floatX}px`);
+            star.style.setProperty('--float-y', `${floatY}px`);
+            star.style.animation = `twinkle ${duration}s infinite ease-in-out, starFloat ${duration * 3}s infinite ease-in-out`;
+            
+            cluster.appendChild(star);
+        }
+        
+        function createStar(container) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            
+            // Random position
+            const x = Math.random() * 100;
+            const y = Math.random() * 100;
+            
+            // Random size
+            const size = Math.random() * 2;
+            
+            // Random color for the star
+            const colors = [
+                '#ffffff', // White
+                '#f9f3d5', // Yellow-white
+                '#d6ebff', // Blue-white
+                '#ffd6d6', // Red-white
+                '#e8d6ff'  // Purple-white
+            ];
+            const color = colors[Math.floor(Math.random() * colors.length)];
+            
+            // Random duration and opacity for twinkling
+            const duration = 3 + Math.random() * 5;
+            const opacity = 0.2 + Math.random() * 0.5;
+            
+            star.style.left = `${x}%`;
+            star.style.top = `${y}%`;
+            star.style.width = `${size}px`;
+            star.style.height = `${size}px`;
+            star.style.backgroundColor = color;
+            star.style.setProperty('--star-color', color);
+            star.style.setProperty('--duration', `${duration}s`);
+            star.style.setProperty('--opacity', opacity);
+            star.style.setProperty('--glow-size', `${size * 2}px`);
+            
+            container.appendChild(star);
+        }
+        
+        function createShootingStar(container) {
+            const shootingStar = document.createElement('div');
+            shootingStar.className = 'star';
+            
+            // Random starting position
+            const x = Math.random() * 100;
+            const y = Math.random() * 100;
+            
+            // Random angle
+            const angle = Math.random() * 360;
+            
+            // Distance to travel
+            const distance = 100 + Math.random() * 200;
+            const distanceX = Math.cos(angle * Math.PI / 180) * distance;
+            const distanceY = Math.sin(angle * Math.PI / 180) * distance;
+            
+            // Star properties
+            const duration = 1 + Math.random();
+            const length = 20 + Math.random() * 30;
+            const height = 1 + Math.random() * 2;
+            const opacity = 0.7 + Math.random() * 0.3;
+            
+            shootingStar.style.left = `${x}%`;
+            shootingStar.style.top = `${y}%`;
+            shootingStar.style.height = `${height}px`;
+            shootingStar.style.backgroundColor = 'white';
+            shootingStar.style.boxShadow = `0 0 10px 2px white`;
+            shootingStar.style.borderRadius = '0';
+            
+            // Animation properties
+            shootingStar.style.setProperty('--angle', `${angle}deg`);
+            shootingStar.style.setProperty('--length', `${length}px`);
+            shootingStar.style.setProperty('--opacity', opacity);
+            shootingStar.style.setProperty('--distance-x', `${distanceX}px`);
+            shootingStar.style.setProperty('--distance-y', `${distanceY}px`);
+            
+            shootingStar.style.animation = `shootingStar ${duration}s forwards linear`;
+            
+            container.appendChild(shootingStar);
+            
+            // Remove shooting star after animation completes
+            setTimeout(() => {
+                shootingStar.remove();
+            }, duration * 1000);
+        }
+        
+        // Recreate galaxy when window is resized
+        window.addEventListener('resize', function() {
+            createGalaxy();
+        });
+    </script>
+    <script src="script.js"></script>
+    <script>
+        // Scroll to top when page loads
+        window.addEventListener('load', function() {
+            // Scroll to the top of the page
+            window.scrollTo(0, 0);
+            
+            // Also update the active state in the navigation
+            const homeLink = document.querySelector('nav ul li a[href="#home"]');
+            if (homeLink) {
+                // Remove active class from all links
+                document.querySelectorAll('nav ul li a').forEach(link => {
+                    link.classList.remove('active');
+                });
+                
+                // Add active class to home link
+                homeLink.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html> 
